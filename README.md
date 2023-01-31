@@ -14,3 +14,7 @@ Unlike most other mod edits - this mod instead leverages in-game functionality t
 4. Launch the game selecting the Middleburgh, NY map, and load only the Middleburgh version of the mod - the original mod just needs to be in your mod folder, but doesn't need to be checked as one of your active mods when choosing mods.
 5. Purchase the item in game as normal, and use as you would expect.
 6. No map-related changes are needed, all custom fillTypes are included in this mod.
+
+
+### Sharing
+This mod is available for personal use only;  **DO NOT, UNDER ANY CIRCUMSTANCES** upload this mod to any external site. 
