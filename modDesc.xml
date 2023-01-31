@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="61">
+    <author>GMNGjoy</author>
+    <version>1.0.0</version>
+    <title>
+        <en>CR 600 for Middleburgh</en>
+    </title>
+    <description>
+        <en>
+<![CDATA[Lizard CR 600 Updated for FS22_Middleburgh to process Cracked Corn and Rolled Barley in small quantities.
+
+This mod will convert the following custom fill types on the Middleburgh, NY map by Nitrodad:
+1L MAIZE to 1L CRACKEDCORN
+1L BARLEY to 1L CRACKEDBARLEY
+
+Respect to the original mod author: HoFFi
+]]>
+        </en>
+    </description>
+    <iconFilename>../FS22_Lizard_CR_600/icon.dds</iconFilename>
+    <multiplayer supported="true" />
+
+    <storeItems>
+        <storeItem xmlFilename="cr600.xml"/>
+    </storeItems>
+
+    <dependencies>
+        <depencency>FS22_Lizard_CR_600</depencency>
+    </dependencies>
+
+    <vehicleTypes>
+		<type name="CR600tipper" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua"  parent="baseFillable">
+			<specialization name="enterable" />
+			<specialization name="motorized" />
+			<specialization name="drivable" />
+			<specialization name="dischargeable" />
+			<specialization name="trailer" />
+			<specialization name="turnOnVehicle" />
+			<specialization name="woodCrusher" />
+			<specialization name="strawBlower" />
+		</type>
+		<type name="CR600pallet" className="Vehicle" filename="$dataS/scripts/vehicles/Vehicle.lua"  parent="baseFillable">
+			<specialization name="enterable" />
+			<specialization name="motorized" />
+			<specialization name="drivable" />
+			<specialization name="dischargeable" />
+			<specialization name="trailer" />
+			<specialization name="turnOnVehicle" />
+			<specialization name="woodCrusher" />
+			<specialization name="strawBlower" />
+			<specialization name="receivingHopper" />
+		</type>
+	</vehicleTypes>
+	
+    <fillTypes filename="fillTypes.xml" />
+
+	<l10n>
+		<text name="function_CR">
+			<en>Jaw breaker are used to shred various kinds of material. Herewith, stone can be processed to lime.</en>
+			<de>Backenbrecher werden zum Zerkleinern von verschiedenstem Material genutzt. Hiermit kann nicht ganz realitätsgetreu, Stein zu Kalk verarbeitet werden.</de>
+		</text>
+		<text name="configuration_Box">
+			<en>Box creation</en>
+			<de>Kistenerstellung</de>
+		</text>
+		<text name="configuration_Belt">
+			<en>Belt</en>
+			<de>Förderband</de>
+		</text>
+		<text name="configuration_BoxBelt">
+			<en>Box creation + belt</en>
+			<de>Kistenerstellung + Band</de>
+		</text>
+	</l10n>	
+    
+</modDesc>
